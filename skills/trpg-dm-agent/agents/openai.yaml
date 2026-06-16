@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRPG DM Agent"
+  short_description: "Run BG3-style Chinese text TRPG campaigns."
+  default_prompt: "Use $trpg-dm-agent to create and run a BG3-style Chinese text TRPG from a plot seed."
