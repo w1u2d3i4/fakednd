@@ -1,6 +1,6 @@
 # TRPG DM Agent
 
-一个可安装到其他 Codex/agent 环境中的中文文字跑团框架。它把本次对话中已经跑出来的 DM 规则抽成 Skill：剧情种子扩写、BG3 风格开卡、D&D d20 检定、100+ 主要 NPC、200+ 次要 NPC、5-6 张地图、NPC/subagent 自主行动、叙事战斗、PC/NPC 成长记录。
+一个可安装到其他 Codex/agent 环境中的中文文字跑团框架。包括：剧情种子扩写、BG3 风格开卡、D&D d20 检定、根据剧情生成100+ 主要 NPC、200+ 次要 NPC、5-6 张地图、NPC/subagent 自主行动、叙事战斗、PC/NPC 成长记录。
 
 ## 安装
 
