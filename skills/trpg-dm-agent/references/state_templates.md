@@ -114,6 +114,51 @@ party:
   supplies:
 ```
 
+## testv1 情势图
+
+```yaml
+variant: testv1
+fixed_truths:
+  - 开局前提和世界秘密，不因玩家路线变化而消失
+active_questions:
+  - 玩家会相信谁
+  - 哪个阵营先得到关键资源
+situation_graph:
+  nodes:
+    - id:
+      type: npc|faction|location|secret|resource|threat
+      name:
+      state:
+  edges:
+    - from:
+      relation: wants|fears|owes|hunts|protects|can_reveal|can_destroy|blocks
+      to:
+      strength: 1
+active_npcs:
+  - id:
+    current_goal:
+    next_likely_move:
+    if_ignored:
+clocks:
+  - name:
+    value: 0
+    max: 6
+    on_3:
+    on_6:
+floating_clues:
+  - clue:
+    carriers:
+      - npc:
+      - location:
+      - object:
+plot_fork_log:
+  - session:
+    player_action:
+    npc_response:
+    changed_state:
+    reason:
+```
+
 ## Session 日志
 
 每次游玩后追加：

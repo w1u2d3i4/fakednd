@@ -9,6 +9,7 @@ from pathlib import Path
 
 REQUIRED_REFERENCES = [
     "play_flow.md",
+    "testv1_npc_driven_campaign.md",
     "rules_engine.md",
     "bg3_character_creation.md",
     "legendary_feats.md",

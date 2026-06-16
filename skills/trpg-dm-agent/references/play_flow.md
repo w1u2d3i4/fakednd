@@ -13,6 +13,8 @@
 
 如果用户没有指定风格，默认使用黑暗奇幻、开放探索、强角色互动、BG3 风格战斗与选择后果。
 
+若用户指定 `testv1`，剧情不按固定章节发展。DM 只固定开局前提、世界秘密、NPC 初始目标和规则约束；后续剧情由玩家行动、主要 NPC 目标、敌方离屏行动、阵营时钟和骰子后果共同生成。详见 `testv1_npc_driven_campaign.md`。
+
 ## 2. 推荐文件结构
 
 ```text
@@ -31,6 +33,7 @@ campaign/
   characters/growth_log.md
   state/campaign_state.yml
   state/npc_evolution.yml
+  state/situation_graph.yml
   logs/session_000.md
 ```
 

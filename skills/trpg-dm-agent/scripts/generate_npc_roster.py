@@ -95,6 +95,11 @@ resources: []
 speech_style: 短句，先试探，再给代价。
 combat_style: 优先完成当前战术目标，而不是盲目输出伤害。
 subagent_prompt: 依据主要目标、次要目标、当前战术目标、压力按钮和关系值决定是否听从玩家。
+plot_drive:
+  if_player_helps: 推进其当前战术目标，并降低一次相关时钟压力。
+  if_player_blocks: 转为交易、设伏、毁证或寻求阵营支援。
+  if_ignored: 离屏推进次要目标；在下次登场时改变一个资源或线索位置。
+  clocks_influenced: ["local_alarm", "faction_move"]
 growth_triggers:
   - 玩家完成或破坏其次要目标
   - 秘密被发现或温柔保管

@@ -44,5 +44,6 @@ Use $trpg-dm-agent to create and run a BG3-style Chinese text TRPG from this plo
 - 掷骰、AC、DC、豁免、优势/劣势、动作经济使用 D&D d20 逻辑。
 - NPC 和敌人像独立玩家一样行动，但严格遵守动作经济、资源消耗和骰子判定。
 - 主要 NPC 必须有主要目标、次要目标、当前战术目标、底线、秘密、压力按钮、关系值和成长记录。
+- `testv1` 变体支持 NPC 驱动剧情：固定开局局势和 NPC 初始目标，不固定后续剧情路线；后续发展由玩家选择、NPC 自主行动、阵营时钟和离屏行动共同产生。
 
 外部参考见 `skills/trpg-dm-agent/references/sources.md`。
